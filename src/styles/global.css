@@ -1,3 +1,9 @@
 :root {
   --color-main: #f043b0;
+  --color-button: #ffd00f;
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  list-style: none;
 }

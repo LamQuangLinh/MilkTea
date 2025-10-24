@@ -1,5 +1,31 @@
+.gioithieu {
+  max-width: 400px;
+}
+.gioithieu h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.gioithieu button {
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 20px;
+  font-size: 20px;
+}
+
+.gioithieu button:hover {
+  color: #dbb107;
+  transform: scale(1.2);
+  transition: 0.2s;
+}
 .banner {
-  background-color: var(--color-main);
-  height: 400px;
-  width: 100vw;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../../assets/hinh1.webp");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  color: white;
+  padding: 40px;
 }
