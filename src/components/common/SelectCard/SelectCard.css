@@ -1,0 +1,21 @@
+.select-card img {
+  width: 400px;
+  height: 400px;
+}
+.select-card {
+  max-width: 400px;
+}
+.select-card button {
+  border: 4px solid black;
+  border-radius: 30px;
+  background-color: yellow;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+.select-card button:hover {
+  cursor: pointer;
+  background-color: black;
+  border: 4px solid yellow;
+  color: white;
+}
