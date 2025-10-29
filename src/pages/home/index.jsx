@@ -1,3 +1,5 @@
+import TaiSao from "../../components/common/TaiSao/TaiSao";
+import ThanhPhan from "../../components/common/ThanhPhan/ThanhPhan";
 import Banner from "../../components/ui/Banner/Banner";
 import ComboSections from "../../components/ui/ComboSection/ComboSection";
 import ProductSection from "../../components/ui/ProductSection/ProductSection";
@@ -9,7 +11,9 @@ function Home() {
       <Banner />
       <ProductSection />
       <ComboSections />
+      <ThanhPhan />
       <SelectSection />
+      <TaiSao />
     </div>
   );
 }

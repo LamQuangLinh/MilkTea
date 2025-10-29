@@ -1,6 +1,7 @@
 .container-1 {
   display: flex;
   padding: 30px 0;
+  background-color: #a0dbf2;
 }
 .menu-footer {
   display: flex;

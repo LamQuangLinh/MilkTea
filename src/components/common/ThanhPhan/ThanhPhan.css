@@ -1,0 +1,34 @@
+.thanhphan {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #d9f58c;
+}
+.mota {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 40px;
+}
+.thanhphan img {
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+}
+.mota h1 {
+  font-size: 60px;
+}
+.mota button {
+  font-size: 15px;
+  max-width: 140px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 4px solid black;
+  background-color: yellow;
+}
+.mota button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: 4px solid yellow;
+}
